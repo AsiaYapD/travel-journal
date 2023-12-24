@@ -7,7 +7,7 @@ export default function App () {
     const locations = data.map(item => {
         return (
             <Main 
-                key= {item.id}
+                key= {item.selection}
                 {...item}
             />
         )

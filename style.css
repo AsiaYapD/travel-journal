@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter;
+    width: 550px;
+}
+
+h3, p {
+    font-size: 10.24px;
+}
+
+.navBar {
+    display: flex;
+    background-color: #F55A5A;
+    height: 55px;  
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap:7px;
+}
+
+.world-png {
+    width: 24px;
+    height: 24px;
+}
+
+.navBar, .navHeader {
+    color: #FFF;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.085px;
+}
+
+section {
+    padding: 40px;
+}
+
+.mainSection {
+    display: flex;
+    padding: 20px 0px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.mainImage {
+    width: 125px;
+    height: 168px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.journalEntry {
+    flex-direction: column;
+    padding-left:20px;
+}
+
+.locationInfo {
+    display: flex;
+    align-items: center;
+}
+
+.location-pin {
+    width: 7px;
+    height: 9.545px;
+}
+
+.locationInfo p{
+    letter-spacing: 1.741px;
+    padding: 0px 12px 0px 4px;
+}
+
+.googleMaps{
+    color:grey;
+    color: #918E9B;
+    font-size: 10.24px;
+    text-decoration-line: underline;
+}
+
+.journalEntry h1 {
+    color: #2B283A;
+    font-size: 25px;
+    margin:0px;
+    padding-bottom: 14px;
+}
+
+.dateRange{
+    display: inline;
+    align-items: center;
+}

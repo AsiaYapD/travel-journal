@@ -3,7 +3,7 @@ import React from "react"
 export default function Main(props) {
     return (
         <div className="mainSection">
-            <img src={`../img/${props.image}`} alt={`photo of ${props.title} in Greece.`} className="mainImage" />
+            <img src={`../img/${props.img}`} alt={`photo of ${props.title} in Greece.`} className="mainImage" />
             <div className="journalEntry">
                 <div className="locationInfo">
                     <img src="./img/location.png" className="location-pin" />
